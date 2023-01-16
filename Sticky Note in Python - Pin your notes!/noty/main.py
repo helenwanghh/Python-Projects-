@@ -9,8 +9,9 @@ def cli():
     time.sleep(2)
     note_input = input("Type your notes here: ")
     note = ("*%s") % note_input
-    time.sleep(1)
+    time.sleep(1)  
     # time.sleep prevents GUI from popping up before it receives input.
+    # time method sleep() suspends execution for the given number of seconds
     root = tk.Tk()
     root.title("Noty")
     root.geometry("300x300")
