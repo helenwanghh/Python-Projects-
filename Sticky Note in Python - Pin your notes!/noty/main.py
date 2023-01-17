@@ -23,4 +23,4 @@ def cli():
     root.mainloop()
     # keeps showing the note, until the user closes it.
 
-
+###functionalities of root, tk.TK(), sleep(1），mainloop() 
